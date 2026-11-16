@@ -1,0 +1,22 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build files
+.next/
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Prisma generated files
+/generated/prisma
+
+# OS files
+.DS_Store
